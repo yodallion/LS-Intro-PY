@@ -1,0 +1,19 @@
+# Question 1:
+    "my_object1 == my_object2" is checking for "equality" between the two variables, 
+    i.e., if the objects each variable references are equal in value.
+    "my_object1 is my_object2" is checking to see if the variables are both referencing the same object.
+
+# Question 2:
+    {42, 'Monty Python', ('a', 'b', 'c'), range(5, 10)}
+    assigning a variable to another variable does not create a new object.
+
+# Question 3:
+    The Life of Brian
+    Two identical objects aren't necessarily the same object.
+    Good example why shallow copies are not ideal when working with mutable objects.
+
+# Question 4:
+    [1, 42, 3]
+    dict2 was only a shallow copy of dict1, so while dict2's collection is a duplicate,
+    the addresses of the collection elements are referencing the same objects dict1's
+    collection elements reference. 

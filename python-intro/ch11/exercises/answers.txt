@@ -1,0 +1,5 @@
+# Question 1:
+   First, passes my_dict.keys() as an argument to the 'sorted' function.
+   Then it accesses the element at index[1] and performs the .upper() method on it.
+   This value is then return an passed as an argument to the 'print' function.
+   The output will then be 'CHRIS'

@@ -1,0 +1,17 @@
+# Using the official Python documentation, can you determine how to check whether a string contains a specific substring?
+odyssey = "Tell me, O Muse, of the man of many devices, who wandered full many ways after he had sacked the sacred citadel of Troy. Many were the men whose cities he saw and whose mind he learned, aye, and many the woes he suffered in his heart upon the sea, seeking to win his own life and the return of his comrades. Yet even so he saved not his comrades, though he desired it sore, for through their own blind folly they perished—fools, who devoured the kine of Helios Hyperion; but he took from them the day of their returning. Of these things, goddess, daughter of Zeus, beginning where thou wilt, tell thou even unto us. Now all the rest, as many as had escaped sheer destruction, were at home, safe from both war and sea, but Odysseus alone, filled with longing for his return and for his wife, did the queenly nymph Calypso, that bright goddess, keep back in her hollow caves, yearning that he should be her husband. But when, as the seasons revolved, the year came in which the gods had ordained that he should return home to Ithaca, not even there was he free from toils, even among his own folk. And all the gods pitied him save Poseidon; but he continued to rage unceasingly against godlike Odysseus until at length he reached his own land. Howbeit Poseidon had gone among the far-off Ethiopians—the Ethiopians who dwell sundered in twain, the farthermost of men, some where Hyperion sets and some where he rises, there to receive a hecatomb of bulls and rams, and there he was taking his joy, sitting at the feast; but the other gods were gathered together in the halls of Olympian Zeus. Among them the father of gods and men was first to speak, for in his heart he thought of noble Aegisthus, whom far-famed Orestes, Agamemnon's son, had slain. Thinking on him he spoke among the immortals, and said: “Look you now, how ready mortals are to blame the gods. It is from us, they say, that evils come, but they even of themselves, through their own blind folly, have sorrows beyond that which is ordained. Even as now Aegisthus, beyond that which was ordained, took to himself the wedded wife of the son of Atreus, and slew him on his return, though well he knew of sheer destruction, seeing that we spake to him before, sending Hermes, the keen-sighted Argeiphontes,1 that he should neither slay the man nor woo his wife; for from Orestes shall come vengeance for the son of Atreus when once he has come to manhood and longs for his own land. So Hermes spoke, but for all his good intent he prevailed not upon the heart of Aegisthus; and now he has paid the full price of all."
+print(odyssey.find('Poseidon')) # 1129
+print(odyssey.find('Zeus')) # 559
+print(odyssey.find('Hades')) # -1
+
+# The 'find' method of a string object will return '-1' if a given substring is not found.
+
+# Oops, the 'in' keyword is actually a much more appropriate tool for checking for 'membership',
+# which is more in line with what this question is asking for. The section for "str.find", which
+# I was looking at even recommends using 'in' instead and links to the 'membership test operations'
+# section of the 'expressions' document. Next time try actually reading the fully section before
+# jumping to a conclusion like 'str.find() is definitely the best tool for something like this!'.
+
+print('Poseidon' in odyssey)
+print('Zeus' in odyssey)
+print('Hades' in odyssey)

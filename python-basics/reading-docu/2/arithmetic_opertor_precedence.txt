@@ -1,0 +1,5 @@
+# Find the Python Documentation on operator precedence, and use it to determine the result of evaluating 4 * 5 + 3**2 / 10.
+    "4 * 5 + 3**2 / 10" contains exponents, multiplication, division, and addition.
+    Operator precedence is dictated such that exponentiation > multiplication/division > addition/subtraction*
+    * Found in the 'Expressions' section of the official python documentation
+    Therefore, "4 * 5 + 3**2 / 10" becomes "4 * 5 + 9 / 10" becomes "20 + 0.90" becomes "20.90".

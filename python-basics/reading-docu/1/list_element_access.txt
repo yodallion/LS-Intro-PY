@@ -1,0 +1,8 @@
+# Locate the documentation for the list built-in object in Python Documentation.
+    Information on 'lists' is located in the official python documentation. 
+    Specifically, it is described in the 'Sequence Types' chapter of the 'Built-in Types' documentation.
+
+# How can we access the second element ('and') in the list ['fish', 'and', 'chips']?
+    The second element of a list collection is accessed via it's index. In this case, list[1] would yield 
+    the 'and' element since it is the second element and collections in python are zero-indexed. 
+    'element[n]' is known as bracket notation.

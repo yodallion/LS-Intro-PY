@@ -1,0 +1,6 @@
+# Using the Python documentation, determine how you can write large integers in a way that makes them easier to read.
+    Little salty about this question, since I instantly thought it was referring to "scientific notation" which technically sounds right.
+    A number like "526700000000000000000000" is certainly a very large number and "5.267e+20" is much simpler way to write out that number.
+    But really they just meant using underscores to seperate numbers like 1,234,567,890 since commas aren't appropriate syntax. I even found
+    the "Lexical Analysis" page the answer was referring to, but again since I was looking for an example of scientific notation I thought 
+    that page was a deadend. Fair enough, but I can already tell ambiguous wording of questions is going to be a bit of a headache going forward.

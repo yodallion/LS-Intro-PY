@@ -1,0 +1,8 @@
+# Given a list: fruits = ["apple", "banana", "cherry", "peach", "watermelon"]
+# How would you determine the index of the fruit "cherry" in this list?
+    By utilizing the list.index() method. If you already know that you're looking for the string "cherry" 
+    and that is is located somewhere within a given list, you could simply call name_of_list.index('cherry') 
+    which will return the zero-based index location of that element, in this case, '2'.
+    If 'cherry' wasn't an element in the list, list.index() would raise a ValueError. 
+    The 'in' keyword can be used to check if a given element is contained within a certain list.
+

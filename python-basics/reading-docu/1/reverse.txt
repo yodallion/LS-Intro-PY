@@ -1,0 +1,4 @@
+# Is there a method to reverse a string, for example turning 'hello' into 'olleh'?
+    There is no direct string method for reversing a string. However, a reversed version of any string
+    can be easily obtained by using the slicing operation. For example, if s = 'hello' then,
+    s[::-1] would yield 'olleh'.

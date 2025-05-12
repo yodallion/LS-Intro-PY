@@ -1,0 +1,3 @@
+# What happens if we take the list ['fish', 'and', 'chips'] and try to access the element at index position 10?
+    It would raise an error. 'List' only has three elements, list[0], list[1], and list[2]. Trying to access list[10] 
+    would mean touching unknown parts of the computers memory, which is not something you ever want to do.

@@ -1,0 +1,2 @@
+# Determine whether Python has a method to lowercase a string
+    It does, "str.lower()"

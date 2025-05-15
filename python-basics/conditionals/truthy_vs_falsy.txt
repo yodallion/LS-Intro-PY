@@ -1,0 +1,7 @@
+# Without looking at your notes or the official documentation, try to recall all values that count as falsy in Python.
+    1. False (boolean)
+    2. None
+    3. 0 (int)
+    4. Empty collections (lists, tuples, dicts, etc.), i.e., [], (), {}
+    5. That's all I remember
+    6. Forgot about empty strings, i.e., ''
